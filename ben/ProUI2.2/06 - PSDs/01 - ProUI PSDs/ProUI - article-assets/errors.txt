@@ -1,0 +1,169 @@
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-flash": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-notes_2.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-table.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-cup.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-show_big_thumbnails.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-settings": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.sidebar-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-brush.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-submenu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "span.sidebar-nav-mini-hide": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-submenu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.active": Unsupported extension: active
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.active": Unsupported extension: active
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-brand": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-submenu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-submenu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-submenu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-section.sidebar-user.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.active": Unsupported extension: active
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-wrench.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.sidebar-nav": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-refresh": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-header.sidebar-nav-mini-hide": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-success.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-thumbs-up.fa-fw": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-success.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-user-avatar": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-info.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-arrow-up.fa-fw": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-info.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-warning.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-exclamation.fa-fw": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-warning.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-danger.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-bug.fa-fw": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.alert.alert-danger.alert-alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-section.sidebar-nav-mini-hide": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-user-avatar": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-content": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "header.navbar.navbar-default": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-bars.fa-fw": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-settings": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.nav.navbar-nav-custom": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-share_alt": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "span.label.label-primary.label-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "span.label.label-primary.label-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-down": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.dropdown-toggle": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.nav.navbar-nav-custom.pull-right": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "header.navbar.navbar-default": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.content-header.content-header-media": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.animation-pulseSlow": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.content-header.content-header-media": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-user": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header.text-center": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-envelope": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header.text-center": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-responsive": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-responsive": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.row.push-top-bottom": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-cogwheel": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-responsive": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-responsive": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-responsive": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-exit": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.row.push-top-bottom": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:41:11 GMT-0500 (EST)] Layer "div.block.block-alt-noborder": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-user-links": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-circle.pull-left": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block-section.content-float.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder.full": Unsupported extension: full
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.sidebar-section.sidebar-user.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-right.fa-li": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-right.fa-li": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-right.fa-li": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-right.fa-li": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.sidebar-section.sidebar-themes.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.fa-ul.list-li-push": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder.full": Unsupported extension: full
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.row": Unsupported extension: row
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "h3.sub-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-night.themed-border-night": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-circle": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.media-body": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.media": Unsupported extension: media
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-amethyst.themed-border-amethyst": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-circle": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.media-body": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.media": Unsupported extension: media
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-circle": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-modern.themed-border-modern": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.media-body": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.media": Unsupported extension: media
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-circle": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-autumn.themed-border-autumn": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "button.btn.btn-sm.btn-primary": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-pencil": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "button.btn.btn-sm.btn-primary": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.media": Unsupported extension: media
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.media-list": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.block.block-alt-noborder": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:41:11 GMT-0500 (EST)] Layer "div.col-md-10.col-md-offset-1.col-lg-8": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-flatie.themed-border-flatie": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "footer.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-heart.text-danger": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.pull-right": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-spring.themed-border-spring": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.pull-left": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "footer.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.header-section": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "img.img-circle": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-fancy.themed-border-fancy": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "div.header-section": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-fire.themed-border-fire": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-coral.themed-border-coral": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-lake.themed-border-lake": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-forest.themed-border-forest": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-waterlily.themed-border-waterlily": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-emerald.themed-border-emerald": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.themed-background-dark-blackberry.themed-border-blackberry": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "ul.sidebar-section.sidebar-themes.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-stopwatch.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-leaf.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-paper-plane-o.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-envelope-o.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-shopping_cart.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-nav-menu": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-settings": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-lightbulb": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "span.sidebar-header-options.clearfix": Unsupported extension: clearfix
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.sidebar-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-charts.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-share_alt.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-film.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-link.sidebar-nav-icon": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "a.sidebar-brand": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-settings": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "li.sidebar-header": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.fa.fa-angle-left.sidebar-nav-indicator": Expected end of input but "-" found.
+[Fri Dec 12 2014 05:35:49 GMT-0500 (EST)] Layer "i.gi.gi-certificate.sidebar-nav-icon": Expected end of input but "-" found.

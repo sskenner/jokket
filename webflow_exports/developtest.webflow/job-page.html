@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Thu Nov 27 2014 11:06:33 GMT+0000 (UTC) -->
+<html data-wf-site="5322860769eb56f307000189" data-wf-page="5330535c2a42ea88010007af">
+<head>
+  <meta charset="utf-8">
+  <title>developtest - job-page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/developtest.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Oswald:300,400,700","Varela Round:400","Great Vibes:400"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+  <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script>
+    $(function(){
+      $('.tick').on('click', function(){
+        $(this).toggleClass('tick-active');
+      });
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script>
+    $(function(){
+      $('.tick-on').on('click', function(){
+        $(this).toggleClass('tick-off');
+      });
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script>
+    $(function(){
+      $('.tick-nocheck').on('click', function(){
+        $(this).toggleClass('tick-check');
+      });
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+    $('.pj1-next').click(function(e) {
+        e.preventDefault();
+        $('.pj1-input1').removeClass('warning');
+        if( !$('.pj1-input1').val() ) {
+            $('.pj1-input1').addClass('warning');
+        } else {
+            $('.pj1').fadeOut(function() { $('.pj2').fadeIn(); });
+        }
+    });
+    $('.pj2-next').click(function(e) {
+        e.preventDefault();
+        $('.pj2-input1').removeClass('warning');
+        if( !$('.pj2-input1').val() ) {
+            $('.pj2-input1').addClass('warning');
+        } else {
+            $('.pj2').fadeOut(function() { $('.pj3').fadeIn(); });
+        }
+    });
+    $('.pj3-next').click(function(e) {
+        e.preventDefault();
+        $('.pj3-input1').removeClass('warning');
+        if( !$('.pj3-input1').val() ) {
+            $('.pj3-input1').addClass('warning');
+        } else {
+            $('.pj3').fadeOut(function() { $('.pj4').fadeIn(); });
+        }
+    });
+    $('.pj4-next').click(function(e) {
+        e.preventDefault();
+        $('.pj4-input1').removeClass('warning');
+        if( !$('.pj4-input1').val() ) {
+            $('.pj4-input1').addClass('warning');
+        } else {
+            $('.pj4').fadeOut(function() { $('.pj5').fadeIn(); });
+        }
+    });
+    $('.pj5-next').click(function(e) {
+        e.preventDefault();
+        $('.pj5-input1').removeClass('warning');
+        if( !$('.pj5-input1').val() ) {
+            $('.pj5-input1').addClass('warning');
+        } else {
+            $('.pj5').fadeOut(function() { $('.pj6').fadeIn(); });
+        }
+    });
+    $('.pj6-next').click(function(e) {
+        e.preventDefault();
+        $('.pj6-input1').removeClass('warning');
+        if( !$('.pj6-input1').val() ) {
+            $('.pj6-input1').addClass('warning');
+        } else {
+            $('.pj6').fadeOut(function() { alert('We got it! Your job was posted!'); $('.pj7').fadeIn(); });
+        }
+    });    
+});
+  </script>
+  </script>
+  <style type="text/css">
+    .blur {-webkit-filter: blur(3px)}
+  </style>
+</head>
+<body>
+  <div class="w-nav white-bkg" data-collapse="medium" data-animation="over-left" data-duration="400" data-contain="1">
+    <div class="w-container">
+      <a class="w-nav-brand jokket-color" href="#"><img src="images/Horizontal Logo.png" width="175" alt="53279702dc4c7d4b39000060_Horizontal%20Logo.png">
+      </a>
+      <nav class="w-nav-menu main-nav-menu" role="navigation"><a class="w-nav-link main-link" href="daily-jokket.html">DAILY</a><a class="w-nav-link main-link" href="working.html">WORKING</a><a class="w-nav-link main-link" href="hiring.html">HIRING</a>
+      </nav>
+      <div class="w-nav-button main">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="job-page-pic">
+    <div class="w-container">
+      <h4 class="jp-dollar-amount">$ 1, 500</h4>
+    </div>
+    <div class="jp-core-info-bkg">
+      <div class="w-container">
+        <div class="w-row jp-info-row">
+          <div class="w-col w-col-8 w-col-small-6 w-clearfix no_padding">
+            <h2 class="jp-job-title-h2">WEB DESIGNER FOR LANDING PAGE DESIGN</h2>
+          </div>
+          <div class="w-col w-col-4 w-col-small-6 w-clearfix no_padding">
+            <h4 class="jp-location-tag">Washington, DC</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-clearfix">
+    <div class="bid-for-this-bkg">
+      <div class="w-container">
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6">
+            <h2 class="bid-on-job-cta">Is this the job for you?</h2>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix"><a class="button bid-on-this-btn" href="bid-page.html">BID NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="split-section-dark-blue">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-7 w-clearfix">
+          <h1 class="job-page-description-tag">DESCRIPTION</h1>
+          <p class="job-page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Working? Faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristiqu posuere.</p><a class="button job-page-show-milestones" href="#" id="btn-hidemilestones">MILESTONES</a>
+          <div class="job-page-milestone-holder">
+            <div class="w-row">
+              <div class="w-col w-col-4">
+                <div class="m-start"></div>
+              </div>
+              <div class="w-col w-col-8">
+                <h4 class="milestone-start-h jp-alt">Start Upon Accepted Bid</h4>
+              </div>
+            </div>
+            <div class="space _30"></div>
+            <div class="w-row">
+              <div class="w-col w-col-4">
+                <div class="m-mark"></div>
+                <h5 class="m-date">MONTH DAY</h5>
+              </div>
+              <div class="w-col w-col-8">
+                <ol class="w-list-unstyled m-bid-list">
+                  <li class="m-bid-title jp-alt">Milestone Title</li>
+                  <li class="m-bid-descrip jp-alt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;</li>
+                </ol>
+              </div>
+            </div>
+            <div class="space _30"></div>
+            <div class="w-row">
+              <div class="w-col w-col-4">
+                <div class="m-mark"></div>
+                <h5 class="m-date">MONTH DAY</h5>
+              </div>
+              <div class="w-col w-col-8">
+                <ol class="w-list-unstyled m-bid-list">
+                  <li class="m-bid-title jp-alt">Milestone Title</li>
+                  <li class="m-bid-descrip jp-alt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;</li>
+                </ol>
+              </div>
+            </div>
+            <div class="space _30"></div>
+            <div class="w-row">
+              <div class="w-col w-col-4">
+                <div class="m-end">
+                  <h4 class="stop-tag">STOP</h4>
+                </div>
+                <h5 class="m-date">MONTH DAY</h5>
+              </div>
+              <div class="w-col w-col-8">
+                <ol class="w-list-unstyled m-bid-list">
+                  <li class="m-bid-title jp-alt">Milestone Title</li>
+                  <li class="m-bid-descrip jp-alt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-5 dark-blue column-morph"><a class="button jp-more-info-btn" href="#" id="btn-hidebasic">BASIC INFORMATION</a>
+          <div class="job-page-extra-info-div">
+            <div class="w-row">
+              <div class="w-col w-col-4 w-col-small-4">
+                <div class="w-clearfix">
+                  <h3 class="abbrev-tag white-over">EMPLOYER</h3><img class="job-page-employer-img" src="images/Picture One.png" width="40" alt="53304cf82a42ea8801000756_Picture%20One.png">
+                  <h2 class="job-page-employer-score">87</h2>
+                </div>
+              </div>
+              <div class="w-col w-col-4 w-col-small-4">
+                <div class="w-clearfix">
+                  <h3 class="abbrev-tag white-over">CATEGORY</h3><img class="job-page-category-img" src="images/Lessons-Arts&Crafts.png" width="40" alt="533059c89f2c90027000083d_Lessons-Arts%26Crafts.png"><img class="job-page-category-img" src="images/Lessons-Recreational_Lessons.png" width="40" alt="533059b86198990170000964_Lessons-Recreational_Lessons.png">
+                </div>
+              </div>
+              <div class="w-col w-col-4 w-col-small-4 w-clearfix">
+                <h3 class="abbrev-tag white-over">DUE DATE</h3>
+                <h4 class="jp-due-date">February 15th</h4>
+              </div>
+            </div>
+          </div><a class="button jp-show-top-bids" href="#" id="btn-hidebids">TOP BIDS</a>
+          <div class="w-clearfix jp-top-bids-holder">
+            <a class="w-clearfix w-inline-block bl-bid-hold" href="#">
+              <div class="_5-percent">
+                <h1 class="jp-bid-rank">1</h1>
+              </div>
+              <div class="_95-percent">
+                <div class="w-row">
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3"><img class="bid-rank-user-pic jp-v-minimized" src="images/Picture 2.png" alt="5330221a2a783e8901000494_Picture%202.png">
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="br-user-score jp-alt">84</h2>
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="bl-month jp-alt">DEC</h2>
+                    <h2 class="bl-day jp-alt">15</h2>
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="bid-rank-price jp-alt">10,000</h2>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="w-clearfix w-inline-block bl-bid-hold" href="#">
+              <div class="_5-percent">
+                <h1 class="jp-bid-rank">2</h1>
+              </div>
+              <div class="_95-percent">
+                <div class="w-row">
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3"><img class="bid-rank-user-pic jp-v-minimized" src="images/Picture 2.png" alt="5330221a2a783e8901000494_Picture%202.png">
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="br-user-score jp-alt">84</h2>
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="bl-month jp-alt">DEC</h2>
+                    <h2 class="bl-day jp-alt">15</h2>
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="bid-rank-price jp-alt">10,000</h2>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="w-clearfix w-inline-block bl-bid-hold" href="#">
+              <div class="_5-percent">
+                <h1 class="jp-bid-rank">3</h1>
+              </div>
+              <div class="_95-percent">
+                <div class="w-row">
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3"><img class="bid-rank-user-pic jp-v-minimized" src="images/Picture 2.png" alt="5330221a2a783e8901000494_Picture%202.png">
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="br-user-score jp-alt">84</h2>
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="bl-month jp-alt">DEC</h2>
+                    <h2 class="bl-day jp-alt">15</h2>
+                  </div>
+                  <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3">
+                    <h2 class="bid-rank-price jp-alt">10,000</h2>
+                  </div>
+                </div>
+              </div>
+            </a><a class="button jp-see-full-bids-btn" href="bid-rank.html">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container">
+    <div class="post_job pj2">
+      <div class="breadcrumb-hold">
+        <div class="w-row">
+          <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3 breadcrumb-center">
+            <div class="post-job-breadcrumb">
+              <a class="button one check" href="#"></a>
+            </div>
+          </div>
+          <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3 breadcrumb-center">
+            <div class="post-job-breadcrumb current"><a class="button one" href="#">2</a>
+            </div>
+          </div>
+          <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3 breadcrumb-center">
+            <div class="post-job-breadcrumb"><a class="button one" href="#">3</a>
+            </div>
+          </div>
+          <div class="w-col w-col-3 w-col-small-3 w-col-tiny-3 breadcrumb-center">
+            <div class="post-job-breadcrumb"><a class="button one" href="#">4</a>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="w-form">
+        <form class="w-clearfix" name="email-form" data-name="Email Form">
+          <div class="w-row">
+            <div class="w-col w-col-2 w-clearfix">
+              <div class="pj-icon"><img class="icon no-margin" src="images/date-purple.png" width="40" height="40" alt="53289b8eedf098b1210001f5_date-purple.png">
+              </div>
+            </div>
+            <div class="w-col w-col-10">
+              <h5 class="pj-tag">Complete By Date?</h5>
+              <input class="w-input post_job_input start pj2-input1" type="text" placeholder="Select A Start Date" name="start" data-name="start">
+            </div>
+          </div>
+          <div class="space _25"></div>
+          <input class="w-button next pj2-next" type="submit" value="NEXT" data-wait="Please wait...">
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form :(</p>
+        </div>
+      </div>
+    </div>
+    <div class="post_job pj5">
+      <h5 class="pj-tag header-bkg">Now Let's Make Sure People Can See Your Job</h5>
+      <div class="w-form">
+        <form name="email-form" data-name="Email Form">
+          <div class="w-row">
+            <div class="w-col w-col-2 w-clearfix">
+              <h1 class="title-icon">T</h1>
+            </div>
+            <div class="w-col w-col-10">
+              <h5 class="pj-tag">Add Categories To Your Job</h5>
+              <select class="w-select category pj5-input1" name="select-a-category" multiple="multiple" data-name="Select A Category">
+                <option value="">Select one...</option>
+                <option value="First">First Choice</option>
+                <option value="Second">Second Choice</option>
+                <option value="Third">Third Choice</option>
+              </select>
+            </div>
+          </div>
+          <div class="w-row">
+            <div class="w-col w-col-2 w-clearfix">
+              <div class="pj-icon t-padding-5"><img class="icon no-margin" src="images/add-pic.png" width="25" height="25" alt="532906c010570dd72900005e_add-pic.png">
+              </div>
+            </div>
+            <div class="w-col w-col-10">
+              <h5 class="pj-tag">Add a header picture?&nbsp;</h5><a class="button add-pic" href="#">Select A Picture</a>
+            </div>
+          </div>
+          <div class="space _25"></div>
+          <div class="w-clearfix pj-visibility">
+            <input class="w-button next pj5-next" type="submit" value="Almost Done!" data-wait="Please wait...">
+          </div>
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form :(</p>
+        </div>
+      </div>
+    </div>
+    <div class="post_job pj6">
+      <h5 class="pj-tag header-bkg blue">Add A Payment Method</h5>
+      <div class="w-form">
+        <form name="email-form" data-name="Email Form">
+          <div class="w-row">
+            <div class="w-col w-col-2 w-clearfix">
+              <div class="pj-icon t-padding-5"><img class="icon no-margin" src="images/credit-card-icon.png" height="30" alt="532919227ad46bc7470000f3_credit-card-icon.png">
+              </div>
+            </div>
+            <div class="w-col w-col-10">
+              <h5 class="pj-tag">Add a payment method with Stripe</h5>
+              <select class="w-select pj6-input1" name="dropdown">
+                <option value="">Select one...</option>
+                <option value="First">First Choice</option>
+                <option value="Second">Second Choice</option>
+                <option value="Third">Third Choice</option>
+              </select><a class="button add-pic" href="#">Go To Stripe</a>
+            </div>
+          </div>
+          <div class="w-clearfix pj-visibility">
+            <input class="w-button next pj6-next" type="submit" value="Post Away" data-wait="Please wait...">
+          </div>
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form :(</p>
+        </div>
+      </div>
+    </div>
+    <div class="post_job pj7">
+      <h5 class="pj-tag header-bkg green">Congrats! Your job was posted!&nbsp;</h5>
+      <h5 class="pj-tag header">Make sure you stay updated on your job and get the best freelancer</h5>
+      <div class="w-row">
+        <div class="w-col w-col-6"><a class="button stay-updated yellow" href="#">Go To Job Page</a>
+        </div>
+        <div class="w-col w-col-6"><a class="button stay-updated blue" href="#">Management Console</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-bidexpand').click(function(e) { 
+    e.preventDefault(); 
+    $('.bid-expand').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-hideandshow').click(function(e) { 
+    e.preventDefault(); 
+    $('.hide-and-show-box').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-hideandshow2').click(function(e) { 
+    e.preventDefault(); 
+    $('#down-max').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-hidemilestones').click(function(e) { 
+    e.preventDefault(); 
+    $('.job-page-milestone-holder').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-hidebasic').click(function(e) { 
+    e.preventDefault(); 
+    $('.job-page-extra-info-div').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-employer').click(function(e) { 
+    e.preventDefault(); 
+    $('#bid-employer').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-m-employer').click(function(e) { 
+    e.preventDefault(); 
+    $('#m-bid-employer').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-hidebids').click(function(e) { 
+    e.preventDefault(); 
+    $('.jp-top-bids-holder').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.modal-go-sign').click(function() {
+        $('.modal-sign-bkg').fadeIn();
+      });
+      $('.close-sign-modal').click(function() {
+        $('.modal-sign-bkg').fadeOut();
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.modal-add-tags-btn').click(function() {
+        $('.modal-add-tags').fadeIn();
+      });
+      $('.cancel-tag-modal').click(function() {
+        $('.modal-add-tags').fadeOut();
+      });
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#btn-profilesettings').click(function(e) { 
+        e.preventDefault(); 
+        $('#settings-notifications').fadeOut();
+        $('#settings-payment').fadeOut();
+        $('#settings-dailyjokket').fadeOut();
+        $('#settings-visibility').fadeOut();
+        $('#settings-profile').fadeIn();
+      });   
+      $('#btn-notificationssettings').click(function(e) { 
+        e.preventDefault(); 
+        $('#settings-profile').fadeOut();
+        $('#settings-payment').fadeOut();
+        $('#settings-visibility').fadeOut();
+        $('#settings-dailyjokket').fadeOut();    
+        $('#settings-notifications').fadeIn();
+      }); 
+      $('#btn-paymentsettings').click(function(e) { 
+        e.preventDefault(); 
+        $('#settings-notifications').fadeOut();
+        $('#settings-profile').fadeOut();
+        $('#settings-dailyjokket').fadeOut(); 
+        $('#settings-visibility').fadeOut();
+        $('#settings-payment').fadeIn();
+      }); 
+        $('#btn-dailyjokketsettings').click(function(e) { 
+        e.preventDefault(); 
+        $('#settings-payment').fadeOut();
+        $('#settings-visibility').fadeOut();
+        $('#settings-profile').fadeOut();    
+        $('#settings-notifications').fadeOut();
+        $('#settings-dailyjokket').fadeIn();
+      }); 
+        $('#btn-visibilitysettings').click(function(e) { 
+        e.preventDefault(); 
+        $('#settings-dailyjokket').fadeOut();
+        $('#settings-payment').fadeOut();
+        $('#settings-profile').fadeOut();    
+        $('#settings-notifications').fadeOut();
+        $('#settings-visibility').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#btn-profile-general').click(function(e) { 
+        e.preventDefault(); 
+        $('#profile-portfolio').fadeOut();
+        $('#profile-about').fadeOut();
+        $('#profile-general').fadeIn();
+      });   
+      $('#btn-profile-about').click(function(e) { 
+        e.preventDefault(); 
+        $('#profile-general').fadeOut();
+        $('#profile-portfolio').fadeOut();
+        $('#profile-about').fadeIn();
+      }); 
+      $('#btn-profile-portfolio').click(function(e) { 
+        e.preventDefault(); 
+        $('#profile-about').fadeOut();
+        $('#profile-general').fadeOut();
+        $('#profile-portfolio').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#btn-payment-freelancer').click(function(e) { 
+        e.preventDefault(); 
+        $('#payment-employer').fadeOut();
+        $('#payment-freelancer').fadeIn();
+      });   
+      $('#btn-payment-employer').click(function(e) { 
+        e.preventDefault(); 
+        $('#payment-freelancer').fadeOut();
+        $('#payment-employer').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#btn-working-notifications').click(function(e) { 
+        e.preventDefault(); 
+        $('#working-jobsforyou').fadeOut();
+        $('#working-notifications').fadeIn();
+      });   
+      $('#btn-working-jobsforyou').click(function(e) { 
+        e.preventDefault(); 
+        $('#working-notifications').fadeOut();
+        $('#working-jobsforyou').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#btn-resume').click(function(e) { 
+        e.preventDefault(); 
+        $('#contract-section').fadeOut();
+        $('#resume-section').fadeIn();
+      });   
+      $('#btn-contracts').click(function(e) { 
+        e.preventDefault(); 
+        $('#resume-section').fadeOut();
+        $('#contract-section').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#btn-hiring-current').click(function(e) { 
+        e.preventDefault(); 
+        $('#hiring-notifications').fadeOut();
+        $('#hiring-current').fadeIn();
+      });   
+      $('#btn-hiring-notifications').click(function(e) { 
+        e.preventDefault(); 
+        $('#hiring-current').fadeOut();
+        $('#hiring-notifications').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-searchoptions').click(function(e) { 
+    e.preventDefault(); 
+    $('#search-options').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#contract-options').click(function(e) { 
+    e.preventDefault(); 
+    $('#contract-expand').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#resume-options').click(function(e) { 
+    e.preventDefault(); 
+    $('#resume-row').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+    $('#btn-testing').click(function(e) { 
+    e.preventDefault(); 
+    $('#testing').fadeToggle(); 
+    }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() { 
+      $('#all').click(function(e) { 
+        e.preventDefault(); 
+        $('#dj-working').fadeOut();    
+        $('#dj-hiring').fadeOut();
+        $('#dj-scoring').fadeOut();
+        $('#dj-justforyou').fadeOut();    
+        $('#dj-all').fadeIn();
+      }); 
+      $('#working').click(function(e) { 
+        e.preventDefault(); 
+        $('#dj-all').fadeOut();
+        $('#dj-hiring').fadeOut();
+        $('#dj-scoring').fadeOut();
+        $('#dj-justforyou').fadeOut();    
+        $('#dj-working').fadeIn();
+      });   
+      $('#hiring').click(function(e) { 
+        e.preventDefault(); 
+        $('#dj-working').fadeOut();
+        $('#dj-all').fadeOut();
+        $('#dj-scoring').fadeOut();
+        $('#dj-justforyou').fadeOut();    
+        $('#dj-hiring').fadeIn();
+      }); 
+      $('#scoring').click(function(e) { 
+        e.preventDefault(); 
+        $('#dj-hiring').fadeOut();
+        $('#dj-working').fadeOut();
+        $('#dj-all').fadeOut();
+        $('#dj-justforyou').fadeOut();    
+        $('#dj-scoring').fadeIn();
+      }); 
+        $('#justforyou').click(function(e) { 
+        e.preventDefault(); 
+        $('#dj-scoring').fadeOut();
+        $('#dj-working').fadeOut();
+        $('#dj-all').fadeOut();
+        $('#dj-hiring').fadeOut();
+        $('#dj-justforyou').fadeIn();
+      }); 
+    });
+  </script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://amsul.ca/pickadate.js/lib/picker.js"></script>
+  <script type="text/javascript" src="http://amsul.ca/pickadate.js/lib/picker.date.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://amsul.ca/pickadate.js/lib/themes/default.css" />
+  <link rel="stylesheet" type="text/css" href="http://amsul.ca/pickadate.js/lib/themes/default.date.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script type="text/javascript">
+    $(function() {
+  /**
+   * Demo scripts
+   */
+  var from_$input = $('#input_from').pickadate(),
+      from_picker = from_$input.pickadate('picker')
+  var to_$input = $('#input_to').pickadate(),
+      to_picker = to_$input.pickadate('picker')
+  // Check if there’s a “from” or “to” date to start with.
+  if ( from_picker.get('value') ) {
+    to_picker.set('min', from_picker.get('select'))
+  }
+  if ( to_picker.get('value') ) {
+    from_picker.set('max', to_picker.get('select'))
+  }
+  // When something is selected, update the “from” and “to” limits.
+  from_picker.on('set', function(event) {
+    if ( event.select ) {
+      to_picker.set('min', from_picker.get('select'))
+    }
+  })
+  to_picker.on('set', function(event) {
+    if ( event.select ) {
+      from_picker.set('max', to_picker.get('select'))
+    }
+  })
+    });
+  </script>
+  <script type="text/javascript">
+    $(function() {
+      $('.milestone-dueby').pickadate();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>ProUI - Responsive Bootstrap Admin Template</title>
+
+  <meta name="description" content="ProUI is a Responsive Bootstrap Admin Template created by pixelcave and published on Themeforest.">
+  <meta name="author" content="pixelcave">
+  <meta name="robots" content="noindex, nofollow">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+
+  <!-- Icons -->
+  <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/icon57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152">
+  <!-- END Icons -->
+
+  <!-- Stylesheets -->
+  <!-- Bootstrap is included in its original form, unaltered -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Related styles of various icon packs and plugins -->
+  <link rel="stylesheet" href="css/plugins.css">
+
+  <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- The front end stylesheet was copied into this directory in a folder called "front_css" -->
+  <!--<link rel="stylesheet" href="front_css/main.css">--> 
+
+  <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
+
+  <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
+  <link rel="stylesheet" href="css/themes.css">
+  <!-- END Stylesheets -->
+
+  <!-- Modernizr (browser feature detection library) & Respond.js (Enable responsive CSS code on browsers that don't support it, eg IE8) -->
+  <script src="js/vendor/modernizr-2.7.1-respond-1.4.2.min.js"></script>
+</head>
+<body>
+  <!-- Page Wrapper -->
+  <!-- In the PHP version you can set the following options from inc/config file -->
+        <!--
+            Available classes:
+
+            'page-loading'      enables page preloader
+          -->
+          <div id="page-wrapper">
+            <!-- Preloader -->
+            <!-- Preloader functionality (initialized in js/app.js) - pageLoading() -->
+            <!-- Used only if page preloader is enabled from inc/config (PHP version) or the class 'page-loading' is added in #page-wrapper element (HTML version) -->
+
+            <div class="preloader themed-background">
+              <h1 class="push-top-bottom text-light text-center"><strong>Pro</strong>UI</h1>
+              <div class="inner">
+                <h3 class="text-light visible-lt-ie9 visible-lt-ie10"><strong>Loading..</strong></h3>
+                <div class="preloader-spinner hidden-lt-ie9 hidden-lt-ie10"></div>
+              </div>
+            </div>
+            <!-- END Preloader -->
+
+            <!-- Page Container -->
+            <!-- In the PHP version you can set the following options from inc/config file -->
+            <!--
+                Available #page-container classes:
+
+                '' (None)                                       for a full main and alternative sidebar hidden by default (> 991px)
+
+                'sidebar-visible-lg'                            for a full main sidebar visible by default (> 991px)
+                'sidebar-partial'                               for a partial main sidebar which opens on mouse hover, hidden by default (> 991px)
+                'sidebar-partial sidebar-visible-lg'            for a partial main sidebar which opens on mouse hover, visible by default (> 991px)
+
+                'sidebar-alt-visible-lg'                        for a full alternative sidebar visible by default (> 991px)
+                'sidebar-alt-partial'                           for a partial alternative sidebar which opens on mouse hover, hidden by default (> 991px)
+                'sidebar-alt-partial sidebar-alt-visible-lg'    for a partial alternative sidebar which opens on mouse hover, visible by default (> 991px)
+
+                'sidebar-partial sidebar-alt-partial'           for both sidebars partial which open on mouse hover, hidden by default (> 991px)
+
+                'sidebar-no-animations'                         add this as extra for disabling sidebar animations on large screens (> 991px) - Better performance with heavy pages!
+
+                'style-alt'                                     for an alternative main style (without it: the default style)
+                'footer-fixed'                                  for a fixed footer (without it: a static footer)
+
+                'disable-menu-autoscroll'                       add this to disable the main menu auto scrolling when opening a submenu
+
+                'header-fixed-top'                              has to be added only if the class 'navbar-fixed-top' was added on header.navbar
+                'header-fixed-bottom'                           has to be added only if the class 'navbar-fixed-bottom' was added on header.navbar
+              -->
+              <div id="page-container" class="sidebar-partial sidebar-visible-lg sidebar-no-animations">
+                <!-- Alternative Sidebar -->
+                <div id="sidebar-alt">
+                  <!-- Wrapper for scrolling functionality -->
+                  <div class="sidebar-scroll">
+                    <!-- Sidebar Content -->
+                    <div class="sidebar-content">
+                      <!-- Chat -->
+                      <!-- Chat demo functionality initialized in js/app.js -> chatUi() -->
+                      <a href="page_ready_chat.html" class="sidebar-title">
+                        <i class="gi gi-comments pull-right"></i> <strong>Chat</strong>UI
+                      </a>
+                      <!-- Chat Users -->
+                      <ul class="chat-users clearfix">
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-online">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar12.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-online">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar15.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-online">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar10.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-online">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-away">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar7.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-away">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar9.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)" class="chat-user-busy">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar16.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar1.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar3.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar13.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">
+                            <span></span>
+                            <img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle">
+                          </a>
+                        </li>
+                      </ul>
+                      <!-- END Chat Users -->
+
+                      <!-- Chat Talk -->
+                      <div class="chat-talk display-none">
+                        <!-- Chat Info -->
+                        <div class="chat-talk-info sidebar-section">
+                          <button id="chat-talk-close-btn" class="btn btn-xs btn-default pull-right">
+                            <i class="fa fa-times"></i>
+                          </button>
+                          <img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle pull-left">
+                          <strong>John</strong> Doe
+                        </div>
+                        <!-- END Chat Info -->
+
+                        <!-- Chat Messages -->
+                        <ul class="chat-talk-messages">
+                          <li class="text-center"><small>Yesterday, 18:35</small></li>
+                          <li class="chat-talk-msg animation-slideRight">Hey admin?</li>
+                          <li class="chat-talk-msg animation-slideRight">How are you?</li>
+                          <li class="text-center"><small>Today, 7:10</small></li>
+                          <li class="chat-talk-msg chat-talk-msg-highlight themed-border animation-slideLeft">I'm fine, thanks!</li>
+                        </ul>
+                        <!-- END Chat Messages -->
+
+                        <!-- Chat Input -->
+                        <form action="index.html" method="post" id="sidebar-chat-form" class="chat-form">
+                          <input type="text" id="sidebar-chat-message" name="sidebar-chat-message" class="form-control form-control-borderless" placeholder="Type a message..">
+                        </form>
+                        <!-- END Chat Input -->
+                      </div>
+                      <!--  END Chat Talk -->
+                      <!-- END Chat -->
+
+                      <!-- Activity -->
+                      <a href="javascript:void(0)" class="sidebar-title">
+                        <i class="fa fa-globe pull-right"></i> <strong>Activity</strong>UI
+                      </a>
+                      <div class="sidebar-section">
+                        <div class="alert alert-danger alert-alt">
+                          <small>just now</small><br>
+                          <i class="fa fa-thumbs-up fa-fw"></i> Upgraded to Pro plan
+                        </div>
+                        <div class="alert alert-info alert-alt">
+                          <small>2 hours ago</small><br>
+                          <i class="gi gi-coins fa-fw"></i> You had a new sale!
+                        </div>
+                        <div class="alert alert-success alert-alt">
+                          <small>3 hours ago</small><br>
+                          <i class="fa fa-plus fa-fw"></i> <a href="page_ready_user_profile.html"><strong>John Doe</strong></a> would like to become friends!<br>
+                          <a href="javascript:void(0)" class="btn btn-xs btn-primary"><i class="fa fa-check"></i> Accept</a>
+                          <a href="javascript:void(0)" class="btn btn-xs btn-default"><i class="fa fa-times"></i> Ignore</a>
+                        </div>
+                        <div class="alert alert-warning alert-alt">
+                          <small>2 days ago</small><br>
+                          Running low on space<br><strong>18GB in use</strong> 2GB left<br>
+                          <a href="page_ready_pricing_tables.html" class="btn btn-xs btn-primary"><i class="fa fa-arrow-up"></i> Upgrade Plan</a>
+                        </div>
+                      </div>
+                      <!-- END Activity -->
+
+                      <!-- Messages -->
+                      <a href="page_ready_inbox.html" class="sidebar-title">
+                        <i class="fa fa-envelope pull-right"></i> <strong>Messages</strong>UI (5)
+                      </a>
+                      <div class="sidebar-section">
+                        <div class="alert alert-alt">
+                          Debra Stanley<small class="pull-right">just now</small><br>
+                          <a href="page_ready_inbox_message.html"><strong>New Follower</strong></a>
+                        </div>
+                        <div class="alert alert-alt">
+                          Sarah Cole<small class="pull-right">2 min ago</small><br>
+                          <a href="page_ready_inbox_message.html"><strong>Your subscription was updated</strong></a>
+                        </div>
+                        <div class="alert alert-alt">
+                          Bryan Porter<small class="pull-right">10 min ago</small><br>
+                          <a href="page_ready_inbox_message.html"><strong>A great opportunity</strong></a>
+                        </div>
+                        <div class="alert alert-alt">
+                          Jose Duncan<small class="pull-right">30 min ago</small><br>
+                          <a href="page_ready_inbox_message.html"><strong>Account Activation</strong></a>
+                        </div>
+                        <div class="alert alert-alt">
+                          Henry Ellis<small class="pull-right">40 min ago</small><br>
+                          <a href="page_ready_inbox_message.html"><strong>You reached 10.000 Followers!</strong></a>
+                        </div>
+                      </div>
+                      <!-- END Messages -->
+                    </div>
+                    <!-- END Sidebar Content -->
+                  </div>
+                  <!-- END Wrapper for scrolling functionality -->
+                </div>
+                <!-- END Alternative Sidebar -->
+
+                <!-- Main Sidebar -->
+                <div id="sidebar">
+                  <!-- Wrapper for scrolling functionality -->
+                  <div class="sidebar-scroll">
+                    <!-- Sidebar Content -->
+                    <div class="sidebar-content">
+                      <!-- Brand -->
+                      <!-- END Brand -->
+
+                      <!-- User Info -->
+                      <div class="sidebar-section sidebar-user clearfix">
+                        <div class="sidebar-user-avatar">
+                          <a href="page_ready_user_profile.html">
+                            <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
+                          </a>
+                        </div>
+                        <div class="sidebar-user-name">User Name</div>
+                        <div class="sidebar-user-links">
+                          <a href="page_ready_user_profile.html" data-toggle="tooltip" data-placement="bottom" title="Profile"><i class="gi gi-user"></i></a>
+                          <a href="page_ready_inbox.html" data-toggle="tooltip" data-placement="bottom" title="Messages"><i class="gi gi-envelope"></i></a>
+                          <!-- Opens the user settings modal that can be found at the bottom of each page (page_footer.html in PHP version) -->
+                          <a href="#modal-user-settings" data-toggle="modal" class="enable-tooltip" data-placement="bottom" title="Settings"><i class="gi gi-cogwheel"></i></a>
+                          <a href="login.html" data-toggle="tooltip" data-placement="bottom" title="Logout"><i class="gi gi-exit"></i></a>
+                        </div>
+                      </div>
+                      <!-- END User Info -->
+
+                      <!-- Theme Colors -->
+                      <!-- Change Color Theme functionality can be found in js/app.js - templateOptions() -->
+
+                      <!-- END Theme Colors -->
+
+                      <!-- Sidebar Navigation -->
+                      <ul class="sidebar-nav">
+                        <li>
+                          <a href="index.html" class=" active"><i class="gi gi-stopwatch sidebar-nav-icon"></i>Daily Jokket</a>
+                        </li>
+                        <li class="sidebar-header">
+                          <span class="sidebar-header-options clearfix"><a href="javascript:void(0)" data-toggle="tooltip" title="Quick Settings"><i class="gi gi-settings"></i></a><a href="javascript:void(0)" data-toggle="tooltip" title="Create the most amazing pages with the widget kit!"><i class="gi gi-lightbulb"></i></a></span>
+                          <span class="sidebar-header-title">Take Action</span>
+                        </li>
+                        <li>
+                          <a href="page_widgets_stats.html"><i class="fa fa-send sidebar-nav-icon"></i>Post a Job</a>
+                        </li>
+                        <li>
+                          <a href="page_widgets_social.html"><i class="fa fa-suitcase sidebar-nav-icon"></i>Job Index</a>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+                        <li class="sidebar-header">
+                          <span class="sidebar-header-options clearfix"><a href="javascript:void(0)" data-toggle="tooltip" title="Quick Settings"><i class="gi gi-settings"></i></a></span>
+                          <span class="sidebar-header-title">Your Jokket</span>
+                        </li>
+                        <li>
+                          <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator"></i><i class="fa fa-wrench sidebar-nav-icon"></i>Working</a>
+                          <ul>
+                            <li>
+                              <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Dashboard</a>
+                              <ul>
+                                <li>
+                                  <a href="just_for_you.html">Just For You</a>
+                                </li>
+                                <li>
+                                  <a href="notifications.html">Notifications</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="bid_logistics.html">Bid Logistics</a>
+                            </li>
+                            <li>
+                              <a href="documents.html">Documents</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator"></i><i class="fa fa-wrench sidebar-nav-icon"></i>Hiring</a>
+                          <ul>
+                            <li>
+                              <a href="#" class="sidebar-nav-submenu"><i class="fa fa-angle-left sidebar-nav-indicator"></i>Dashboard</a>
+                              <ul>
+                                <li>
+                                  <a href="currently_posted.html">Currently Posted</a>
+                                </li>
+                                <li>
+                                  <a href="notifications.html">Notifications</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="bid_logistics.html">Bid Logistics</a>
+                            </li>
+                            <li>
+                              <a href="documents.html">Documents</a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li>
+                          <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator"></i><i class="fa fa-wrench sidebar-nav-icon"></i>Manage</a>
+                          <ul>
+                            <li>
+                              <a href="jobs.html">Jobs</a>
+                            </li>
+                            <li>
+                              <a href="document_center.html">Document Center</a>
+                            </li>
+                            <li>
+                              <a href="messages.html">Messages</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="sidebar-header">
+                          <span class="sidebar-header-title">Other Stuff</span>
+                        </li>
+                        <li>
+                          <a href="payment.html"><i class="fa fa-send sidebar-nav-icon"></i>Payment</a>
+                        </li>
+                        <li>
+                          <a href="settings.html"><i class="fa fa-asterisk sidebar-nav-icon"></i>Settings</a>
+                        </li>
+                      </ul>
+                      <!-- END Sidebar Navigation -->
+
+                      <!-- Sidebar Notifications -->
+                      <!-- END Sidebar Notifications -->
+                    </div>
+                    <!-- END Sidebar Content -->
+                  </div>
+                  <!-- END Wrapper for scrolling functionality -->
+                </div>
+                <!-- END Main Sidebar -->
+
+                <!-- Main Container -->
+                <div id="main-container">
+                  <!-- Header -->
+                  <!-- In the PHP version you can set the following options from inc/config file -->
+                    <!--
+                        Available header.navbar classes:
+
+                        'navbar-default'            for the default light header
+                        'navbar-inverse'            for an alternative dark header
+
+                        'navbar-fixed-top'          for a top fixed header (fixed sidebars with scroll will be auto initialized, functionality can be found in js/app.js - handleSidebar())
+                            'header-fixed-top'      has to be added on #page-container only if the class 'navbar-fixed-top' was added
+
+                        'navbar-fixed-bottom'       for a bottom fixed header (fixed sidebars with scroll will be auto initialized, functionality can be found in js/app.js - handleSidebar()))
+                            'header-fixed-bottom'   has to be added on #page-container only if the class 'navbar-fixed-bottom' was added
+                          -->
+                          <header class="navbar navbar-default">
+                            <!-- Left Header Navigation -->
+
+                            <ul class="nav navbar-nav-custom">
+                              <!-- Main Sidebar Toggle Button -->
+                              <li>
+                                <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar');">
+                                  <i class="fa fa-bars fa-fw"></i>
+                                </a>
+
+                              </li>
+                              <!-- END Main Sidebar Toggle Button -->
+                              <!-- Site Logo -->
+                              <a href="javascript:void(0)" class="site-logo">
+                                <strong>jokket</strong>
+                              </a>
+                              <!-- Site Logo -->
+                              <!-- Template Options -->
+                              <!-- Change Options functionality can be found in js/app.js - templateOptions() -->
+                              <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                                </a>
+                                <ul class="dropdown-menu dropdown-custom dropdown-options">
+                                  <li class="dropdown-header text-center">Header Style</li>
+                                  <li>
+                                    <div class="btn-group btn-group-justified btn-group-sm">
+                                      <a href="javascript:void(0)" class="btn btn-primary" id="options-header-default">Light</a>
+                                      <a href="javascript:void(0)" class="btn btn-primary" id="options-header-inverse">Dark</a>
+                                    </div>
+                                  </li>
+                                  <li class="dropdown-header text-center">Page Style</li>
+                                  <li>
+                                    <div class="btn-group btn-group-justified btn-group-sm">
+                                      <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style">Default</a>
+                                      <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style-alt">Alternative</a>
+                                    </div>
+                                  </li>
+                                  <li class="dropdown-header text-center">Main Layout</li>
+                                  <li>
+                                    <button class="btn btn-sm btn-block btn-primary" id="options-header-top">Fixed Side/Header (Top)</button>
+                                    <button class="btn btn-sm btn-block btn-primary" id="options-header-bottom">Fixed Side/Header (Bottom)</button>
+                                  </li>
+                                  <li class="dropdown-header text-center">Footer</li>
+                                  <li>
+                                    <div class="btn-group btn-group-justified btn-group-sm">
+                                      <a href="javascript:void(0)" class="btn btn-primary" id="options-footer-static">Default</a>
+                                      <a href="javascript:void(0)" class="btn btn-primary" id="options-footer-fixed">Fixed</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </li>
+                              <!-- END Template Options -->
+                            </ul>
+                            <!-- END Left Header Navigation -->
+
+                            <!-- Right Header Navigation -->
+                            <ul class="nav navbar-nav-custom pull-right">
+                              <!-- Alternative Sidebar Toggle Button -->
+                              <li>
+                                <!-- If you do not want the main sidebar to open when the alternative sidebar is closed, just remove the second parameter: App.sidebar('toggle-sidebar-alt'); -->
+                                <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar-alt', 'toggle-other');">
+                                  <span class="label label-primary label-indicator animation-floating">4</span>
+                                </a>
+                              </li>
+                              <!-- END Alternative Sidebar Toggle Button -->
+
+                              <!-- User Dropdown -->
+                              <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                                  <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar"> <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
+                                  <li class="dropdown-header text-center">Account</li>
+                                  <li>
+                                    <a href="page_ready_timeline.html">
+                                      <i class="fa fa-clock-o fa-fw pull-right"></i>
+                                      <span class="badge pull-right">10</span>
+                                      Updates
+                                    </a>
+                                    <a href="page_ready_inbox.html">
+                                      <i class="fa fa-envelope-o fa-fw pull-right"></i>
+                                      <span class="badge pull-right">5</span>
+                                      Messages
+                                    </a>
+                                    <a href="page_ready_pricing_tables.html"><i class="fa fa-magnet fa-fw pull-right"></i>
+                                      <span class="badge pull-right">3</span>
+                                      Subscriptions
+                                    </a>
+                                    <a href="page_ready_faq.html"><i class="fa fa-question fa-fw pull-right"></i>
+                                      <span class="badge pull-right">11</span>
+                                      FAQ
+                                    </a>
+                                  </li>
+                                  <li class="divider"></li>
+                                  <li>
+                                    <a href="page_ready_user_profile.html">
+                                      <i class="fa fa-user fa-fw pull-right"></i>
+                                      Profile
+                                    </a>
+                                    <!-- Opens the user settings modal that can be found at the bottom of each page (page_footer.html in PHP version) -->
+                                    <a href="#modal-user-settings" data-toggle="modal">
+                                      <i class="fa fa-cog fa-fw pull-right"></i>
+                                      Settings
+                                    </a>
+                                  </li>
+                                  <li class="divider"></li>
+                                  <li>
+                                    <a href="page_ready_lock_screen.html"><i class="fa fa-lock fa-fw pull-right"></i> Lock Account</a>
+                                    <a href="login.html"><i class="fa fa-ban fa-fw pull-right"></i> Logout</a>
+                                  </li>
+                                  <li class="dropdown-header text-center">Activity</li>
+                                  <li>
+                                    <div class="alert alert-success alert-alt">
+                                      <small>5 min ago</small><br>
+                                      <i class="fa fa-thumbs-up fa-fw"></i> You had a new sale ($10)
+                                    </div>
+                                    <div class="alert alert-info alert-alt">
+                                      <small>10 min ago</small><br>
+                                      <i class="fa fa-arrow-up fa-fw"></i> Upgraded to Pro plan
+                                    </div>
+                                    <div class="alert alert-warning alert-alt">
+                                      <small>3 hours ago</small><br>
+                                      <i class="fa fa-exclamation fa-fw"></i> Running low on space<br><strong>18GB in use</strong> 2GB left
+                                    </div>
+                                    <div class="alert alert-danger alert-alt">
+                                      <small>Yesterday</small><br>
+                                      <i class="fa fa-bug fa-fw"></i> <a href="javascript:void(0)" class="alert-link">New bug submitted</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </li>
+                              <!-- END User Dropdown -->
+                            </ul>
+
+                            <ul class="nav navbar-nav-custom pull-right">
+
+                              <!-- Horizontal Menu -->
+                              <div id="horizontal-menu-collapse" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                  <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Job Index<i class="fa fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="javascript:void(0)"><i class="fa fa-asterisk fa-fw pull-right"></i> Current</a></li>
+                                      <li><a href="javascript:void(0)"><i class="fa fa-lock fa-fw pull-right"></i> Jobs to Consider</a></li>
+                                      <li><a href="javascript:void(0)"><i class="fa fa-user fa-fw pull-right"></i> Bid Logistics</a></li>
+                                      <li><a href="javascript:void(0)"><i class="fa fa-send fa-fw pull-right"></i> Job Mail</a></li>
+                                      <li class="divider"></li>
+                                      <li class="dropdown-submenu">
+                                        <a href="javascript:void(0)" tabindex="-1"><i class="fa fa-chevron-right fa-fw pull-right"></i> Contact</a>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="javascript:void(0)" tabindex="-1">Second level</a></li>
+                                          <li><a href="javascript:void(0)">Second level</a></li>
+                                          <li><a href="javascript:void(0)">Second level</a></li>
+                                          <li class="divider"></li>
+                                          <li class="dropdown-submenu">
+                                            <a href="javascript:void(0)" tabindex="-1"><i class="fa fa-chevron-right fa-fw pull-right"></i> More Settings</a>
+                                            <ul class="dropdown-menu">
+                                              <li><a href="javascript:void(0)">Third level</a></li>
+                                              <li><a href="javascript:void(0)">Third level</a></li>
+                                              <li><a href="javascript:void(0)">Third level</a></li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">Daily</a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">Working</a>
+                                  </li>
+                                  <li>
+                                    <a href="javascript:void(0)">Hiring</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <!-- END Horizontal Menu -->
+                            </ul>
+                            <!-- END Right Header Navigation -->
+                          </header>
+                          <!-- END Header -->
+                          <div class="block" style="margin-bottom: 0px; padding-top: 0px;">
+                            <body class>
+                              <div class="section buttons top">
+                                <button type="button" class="btn btn-sm btn-primary">Profile</button>
+                                <button type="button" class="btn btn-sm btn-default">Activity</button>
+                                <button type="button" class="btn btn-sm btn-link">Disabled</button>
+                              </div>
+                            </body>
+                          </div>
+                          <!-- Page content -->
+                          <div id="page-content" style="background-color:white; min-height: 858px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
+
+                            <div class="widget">
+                              <div class="widget-advanced widget-advanced-alt">
+                                <div class="widget-header text-left" style="padding: 0">
+                                  <img src="img/placeholders/headers/dashboard_header.jpg" alt="header image">
+                                  <h3 class="widget-content widget-content-image widget-content-light clearfix">
+
+                                    <strong>Full Job Title Goes Here</strong><br>
+                                    <small>City, State</small>
+                                  </h3>
+                                </div>
+                                <div class="widget-main" style="background-color: #1bbae1">
+                                  <div class="row text-left">
+                                    <div class="col-md-6">
+                                      <h3>
+                                        Don't miss this quality job
+                                      </h3>
+                                    </div>
+                                    
+
+                                    <div class="col-md-6">
+                                      <div class="button pull-right">
+                                        <button type="button" style="border-radius: 3px"class="btn btn-lg btn-link">Bid on this job!</button>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--
+                            <section class="site-content site-section site-section-light themed-background">
+                              <div class="container">
+                                <div class="site-block animation-fadeInQuick" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                                  <div class="col-md-11">
+                                    <h3>Don't miss this quality job</h3>
+                                  </div>
+                                  <div class="col-md-1">
+                                    <button type="button" class="btn btn-sm btn-default">Bid on this job!</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
+
+                          -->
+
+                          <div class="container">
+
+                            <div class="row">
+                              <div class="row">
+                                <div class="col-sm-6 col-lg-3">
+                                  <a href="page_ready_article.php" class="widget widget-hover-effect1">
+                                    <div class="widget-simple" style="border-color: #f9fafc; border:solid 1px">
+                                      <div class="widget-icon pull-left themed-background-amethyst animation-fadeIn">
+                                        <i class="fa fa-file-text"></i>
+                                      </div>
+                                      <h3 class="widget-content text-right animation-pullDown">
+                                        <strong>December 15 2014</strong><br>
+                                        <small>Complete by</small>
+                                      </h3>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                  <a href="page_ready_article.php" class="widget widget-hover-effect1">
+                                    <div class="widget-simple" style="border-color: #f9fafc; border:solid 1px">
+                                      <div class="widget-icon pull-left themed-background-spring animation-fadeIn">
+                                        <i class="gi gi-usd"></i>
+                                      </div>
+                                      <h3 class="widget-content text-right animation-pullDown">
+                                        <strong>$600</strong><br>
+                                        <small>Willing to Pay</small>
+                                      </h3>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                  <a href="page_ready_inbox.php" class="widget widget-hover-effect1">
+                                    <div class="widget-simple" style="border-color: #f9fafc; border:solid 1px">
+                                      <div class="widget-icon pull-left themed-background-fire animation-fadeIn">
+                                        <i class="gi gi-envelope"></i>
+                                      </div>
+                                      <h3 class="widget-content text-right animation-pullDown">
+                                        <strong>5 Bids</strong>
+                                        <small>Active</small>
+                                      </h3>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                  <a href="page_comp_gallery.php" class="widget widget-hover-effect1">
+                                    <div class="widget-simple" style="border-color: #f9fafc; border:solid 1px">
+                                      <div class="widget-icon pull-left animation-fadeIn">
+                                        <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
+                                      </div>
+                                      <h3 class="widget-content text-right animation-pullDown">
+                                        <strong>Employer Name</strong>
+                                        <small>Employer</small>
+                                      </h3>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="row">
+
+                               <div class="container" style="padding-left:0px; padding-right: 0px;"> 
+                                <div class="col-lg-12 job-item animation-fadeInQuick" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100" style="border:1px solid; border-color: #f9fafc; padding-left: 0px; padding-right: 0px">
+
+                                  <div class="job-item-info clearfix" style="background-color: #f9fafc">
+                                    <div class="container">
+                                      <h5><strong>Description</strong></h5><br>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="container">
+                                    <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in purus. Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas nisl id lectus facilisis scelerisque?
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-md-6 job-item animation-fadeInQuick" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100" style="border:1px solid; border-color: #f9fafc; padding-left: 0px; padding-right: 0px">
+
+                              <div class="job-item-info clearfix" style="background-color: #f9fafc">
+                                  <div class="col-md-6">
+                                  <h5><strong>Timeline</strong></h5><br>
+                                    
+                                  </div>
+
+                                  <div class="col-md-6">
+                                    <div class="circle options pull-right">
+                                    <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="" data-original-title="Settings"><i class="fa fa-caret-down"></i></a>
+                                  </div>
+
+                                </div>
+                                </div>
+
+                              <div class="widget-extra">
+                                <div class="timeline">
+                                  <ul class="timeline-list">
+                                    <li class="active">
+                                      <div class="timeline-icon"><i class="gi gi-airplane"></i></div>
+                                      <div class="timeline-time"><small>just now</small></div>
+                                      <div class="timeline-content">
+                                        <p class="push-bit"><a href="page_ready_user_profile.php"><strong>Project Begins</strong></a></p>
+                                        <p class="push-bit">The trip was an amazing and a life changing experience!!</p>
+
+
+                                      </div>
+                                    </li>
+                                    <li class="active">
+                                      <div class="timeline-icon themed-background-fire themed-border-fire"><i class="fa fa-file-text"></i></div>
+                                      <div class="timeline-time"><small>5 min ago</small></div>
+                                      <div class="timeline-content">
+                                        <p class="push-bit"><a href="page_ready_user_profile.php"><strong>Milestone #1 Title</strong></a></p>
+                                        <strong>Free courses</strong> for all our customers at A1 Conference Room - 9:00 <strong>am</strong> tomorrow!
+                                      </div>
+                                    </li>
+                                    <li class="active">
+                                      <div class="timeline-icon"><i class="gi gi-drink"></i></div>
+                                      <div class="timeline-time"><small>3 hours ago</small></div>
+                                      <div class="timeline-content">
+                                        <p class="push-bit"><a href="page_ready_user_profile.php"><strong>Milestone #2 Title</strong></a></p>
+                                        <p class="push-bit"><strong>Happy Hour!</strong> Free drinks at <a href="javascript:void(0)">Cafe-Bar</a> all day long!</p>
+
+                                      </div>
+                                    </li>
+
+
+                                    <li class="active">
+                                      <div class="timeline-icon"><i class="fa fa-pencil"></i></div>
+                                      <div class="timeline-time"><small>1 week ago</small></div>
+                                      <div class="timeline-content">
+                                        <p class="push-bit"><a href="page_ready_user_profile.php"><strong>Complete Entire Project Date</strong></a></p>
+                                        <p class="push-bit">Consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in purus. Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate.</p>
+                                        Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas nisl id lectus facilisis scelerisque? Proin.  Ipsum Lorem id nacbar.  Enim dictum auctor purpus, ordio mongo.  Tincut mulvus. 
+                                      </div>
+                                    </li>
+                                    <li class="text-center">
+                                      <a href="javascript:void(0)" class="btn btn-xs btn-default">View more..</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 job-item animation-fadeInQuick" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100" style="border:1px solid; border-color: #f9fafc; padding-left: 0px; padding-right: 0px">
+
+                              <div class="job-item-info clearfix" style="background-color: #f9fafc">
+
+                                  <div class="col-md-6">
+                                  <h5><strong>Top Bids</strong></h5><br>
+                                    
+                                  </div>
+
+                                  <div class="col-md-6">
+                                    <div class="circle options pull-right">
+                                    <a href="javascript:void(0)" class="btn btn-alt btn-sm btn-default" data-toggle="tooltip" title="" data-original-title="Settings"><i class="fa fa-caret-down"></i></a>
+                                  </div>
+
+                                </div>
+                                </div>
+
+                                <div class="col-md-10">
+                                <div class="widget">
+                                  <div class="widget-advanced widget-advanced-alt" style="border-color: #f9fafc; border: 1px solid">
+                                    <div class="widget-header text-left">
+                                      <img src="img/placeholders/headers/widget5_header.jpg" alt="background" class="widget-background">
+                                      <h3 class="widget-content widget-content-image widget-content-light clearfix">
+                                        <span class="widget-icon pull-right">
+                                          <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
+                                        </span>
+                                        <strong>(1)</strong><br>
+                                        <small>Craig West</small>
+                                      </h3>
+                                    </div>
+                                    <div class="widget-main">
+                                      <div class="row text-center">
+                                        <div class="col-xs-4">
+                                          <h3>
+                                            <strong>$3,450</strong><br>
+                                            <small>Cost</small>
+                                          </h3>
+                                        </div>
+                                        <div class="col-xs-4">
+                                          <h3>
+                                            <strong>Jan 15</strong> <br>
+                                            <small>Complete By</small>
+                                          </h3>
+                                        </div>
+                                        <div class="col-xs-4">
+
+                                          <button type="button" style="border-radius: 3px; border-color:#1bbae1" class="btn btn-lg btn-link">See Full</button>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="widget">
+                                  <div class="widget-advanced widget-advanced-alt" style="border-color: #f9fafc; border: 1px solid">
+                                    <div class="widget-header text-left">
+                                      <img src="img/placeholders/headers/widget5_header.jpg" alt="background" class="widget-background">
+                                      <h3 class="widget-content widget-content-image widget-content-light clearfix">
+                                        <span class="widget-icon pull-right">
+                                          <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar">
+                                        </span>
+                                        <strong>(2)</strong><br>
+                                        <small>Jonathan Second</small>
+                                      </h3>
+                                    </div>
+                                    <div class="widget-main">
+                                      <div class="row text-center">
+                                        <div class="col-xs-4">
+                                          <h3>
+                                            <strong>$5,450</strong> <br>
+                                            <small>Cost</small>
+                                          </h3>
+                                        </div>
+                                        <div class="col-xs-4">
+                                          <h3>
+                                            <strong>Feb. 20</strong> <br>
+                                            <small>Complete By</small>
+                                          </h3>
+                                        </div>
+
+                                        <div class="col-xs-4">
+                                          <button type="button" style="border-radius: 3px; border-color:#1bbae1" class="btn btn-lg btn-link">See Full</button>
+                                        </div>
+
+                                      </div>
+
+                                    </div>
+                                  </div>  
+                                  <div class="text-center" style="padding-top:20px;">
+                                    <a href="javascript:void(0)" class="btn btn-xs btn-default">View more..</a>
+                                  </div>
+                                  </div>
+
+
+
+
+
+
+                                </div>
+
+
+                              </div>
+                            </div>
+
+                            <!-- END Page Content -->
+
+                            <!-- Footer -->
+                            <footer class="clearfix">
+                              <div class="pull-left">
+                                <span id="year-copy"></span> &copy; <a href="#" target="_blank">jokket</a>
+                              </div>
+                            </footer>
+                            <!-- END Footer -->
+                          </div>
+                          <!-- END Main Container -->
+                        </div>
+                        <!-- END Page Container -->
+                      </div>
+                      <!-- END Page Wrapper -->
+
+                      <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
+                      <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+                      <!-- User Settings, modal which opens from Settings link (found in top right user menu) and the Cog link (found in sidebar user info) -->
+                      <div id="modal-user-settings" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header text-center">
+                              <h2 class="modal-title"><i class="fa fa-pencil"></i> Settings</h2>
+                            </div>
+                            <!-- END Modal Header -->
+
+                            <!-- Modal Body -->
+                            <div class="modal-body">
+                              <form action="index.html" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;">
+                                <fieldset>
+                                  <legend>Vital Info</legend>
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label">Username</label>
+                                    <div class="col-md-8">
+                                      <p class="form-control-static">Admin</p>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="user-settings-email">Email</label>
+                                    <div class="col-md-8">
+                                      <input type="email" id="user-settings-email" name="user-settings-email" class="form-control" value="admin@example.com">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="user-settings-notifications">Email Notifications</label>
+                                    <div class="col-md-8">
+                                      <label class="switch switch-primary">
+                                        <input type="checkbox" id="user-settings-notifications" name="user-settings-notifications" value="1" checked>
+                                        <span></span>
+                                      </label>
+                                    </div>
+                                  </div>
+                                </fieldset>
+                                <fieldset>
+                                  <legend>Password Update</legend>
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="user-settings-password">New Password</label>
+                                    <div class="col-md-8">
+                                      <input type="password" id="user-settings-password" name="user-settings-password" class="form-control" placeholder="Please choose a complex one..">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="user-settings-repassword">Confirm New Password</label>
+                                    <div class="col-md-8">
+                                      <input type="password" id="user-settings-repassword" name="user-settings-repassword" class="form-control" placeholder="..and confirm it!">
+                                    </div>
+                                  </div>
+                                </fieldset>
+                                <div class="form-group form-actions">
+                                  <div class="col-xs-12 text-right">
+                                    <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
+
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <!-- END Modal Body -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- END User Settings -->
+
+                      <!-- Remember to include excanvas for IE8 chart support -->
+                      <!--[if IE 8]><script src="js/helpers/excanvas.min.js"></script><![endif]-->
+
+                      <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
+                      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                      <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
+
+                      <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
+                      <script src="js/vendor/bootstrap.min.js"></script>
+                      <script src="js/plugins.js"></script>
+                      <script src="js/app.js"></script>
+
+                      <!-- Google Maps API + Gmaps Plugin, must be loaded in the page you would like to use maps (Remove 'http:' if you have SSL) -->
+                      <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+                      <script src="js/helpers/gmaps.min.js"></script>
+
+                      <!-- Load and execute javascript code used only in this page -->
+                      <script src="js/pages/index.js"></script>
+                      <script>$(function(){ Index.init(); });</script>
+                    </body>
+                    </html>
